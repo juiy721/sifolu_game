@@ -1,0 +1,22 @@
+body {
+    background-image: url("images/background.png");
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* 画像たち */
+.mv {
+    width: 80%;
+}
+.ui {
+    width: 90%;
+}
+.character {
+    width: 400px;
+}
+.img {
+    text-align: center;
+}
