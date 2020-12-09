@@ -1,14 +1,17 @@
-body {
-       
-}
+/* フォントNoto Sans */
 .wf-notosansjapanese { 
     font-family: "Noto Sans JP"; 
 }
 
+/* 文字の調整 */
 h1 {
     text-align: center;
     font-size: 35pt;
     font-weight: bold;
+    padding-bottom: 20px;
+}
+p {
+    font-size: 12pt;
 }
 
 /* mvを1920×1080に調節する */
@@ -37,14 +40,30 @@ h1 {
     margin: 100px 0px 0px 100px;
 }
 
-/* 「ある日、主人公は傷ついたシフォルと出会う。」空白調整 */
+/* 上下空白調整 */
+.encounter {
+    padding: 250px 0px ;
+}
 .encounter h1 {
-    padding: 200px 0px 0px 0px;
+    padding-bottom: 0px;
 }
 
 /* 画像を文字の横に置く */
 .hero {
     display: flex;
+}
+.partner_sifolu {
+    display: flex;
+    padding: 1px 0px 0px 20%;
+}
+
+/* 「主人公」空白調整 */
+.hero p {
+    padding: 10% 0px 0px 20%;
+}
+/* 「相棒のシフォル」空白調整 */
+.partner_sifolu p {
+    padding: 50px 0px 0px 18%;
 }
 
 /* 画像たち */
@@ -56,6 +75,18 @@ h1 {
 }
 .character {
     width: 580px;
+}
+.sifolu {
+    width: 280px;
+}
+.cg {
+    width: 80%;
+}
+.undersea_blur {
+    width: 80%;
+}
+.ui {
+    width: 80%;
 }
 .img {
     text-align: center;
