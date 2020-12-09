@@ -42,7 +42,7 @@ p {
 
 /* 上下空白調整 */
 .encounter {
-    padding: 250px 0px ;
+    padding: 200px 0px ;
 }
 .encounter h1 {
     padding-bottom: 0px;
@@ -66,7 +66,45 @@ p {
     padding: 50px 0px 0px 18%;
 }
 
+/* sectionごとの下の空白調整 */
+.blank {
+    padding-bottom: 200px;
+}
+.cooperation {
+    padding-bottom: 8%;
+}
+
+/* p空白調整 */
+.blank p {
+    padding: 20px 0px 0px 25%;
+}
+.cooperation p {
+    padding: 20px 0px 0px 25%;
+}
+
+/* 全体調整 */
+.explanation {
+    padding: 10% 0px 10% 20%;
+    line-height: 3em;
+}
+/* display:flexにする */
+.flex {
+    display: flex;
+}
+/* 文字調整 */
+.flex p {
+    border-bottom: solid 1px darkgray;
+    width: 40%;
+}
+.flex_inner {
+    line-height: 1.5em;
+    padding: 1em 0em;
+}
+
 /* 画像たち */
+.img {
+    text-align: center;
+}
 .mv {
     width: 80%;
 }
@@ -88,8 +126,8 @@ p {
 .ui {
     width: 80%;
 }
-.img {
-    text-align: center;
+.logo {
+    width: 30%;
 }
 
 /* 背景画像適応範囲 */
