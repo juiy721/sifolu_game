@@ -136,3 +136,88 @@ p {
     background-size: 100%;
     color: white;
 }
+
+/* !!!レスポンシブ!!! */
+
+/*デバイスの横幅が481以上768以下の場合*/
+/* 主にiPad向け */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+     
+    
+ 
+} 
+ 
+/* デバイスの横幅が480px以下の場合 */
+/* 主にスマホ向け */
+@media only screen and (max-width: 480px) {
+
+    /* 文字の調整 */
+    h1 {
+        font-size: 20pt;
+        padding-bottom: 10px;
+    }
+    p {
+        font-size: 11pt;
+    }
+    /* キャッチコピーを調節する */
+    .catch_copy {
+        padding: 60% 10%;
+        font-size: 20pt;
+    }
+    /* mvを調節する */
+    .img_mv {
+        padding: 40% 0%;
+    }
+        
+    /* 背景画像適応範囲 */
+    .background {
+        background-image: url("images/background.png");
+        background-size: 100%;
+        color: black;
+    }
+    /* 画像の上に文字を乗せない */
+    .img_main_blur {
+        position: static;
+    }
+    .text_main_blur {
+        position: static;
+    }
+    .text_main_blur p {
+        margin: 20px 0px 100px 30px;
+    }
+    /* 上下空白調整 */
+    .encounter {
+        padding: 50px 0px ;
+}
+
+    /* 画像たち */
+    .mv {
+        width: 100%;
+    }
+    .main_blur {
+        width: 100%;
+        
+    }
+    .character {
+        width: 70%;
+        height: 70%;
+    }
+    .sifolu {
+        width: 50%;
+        height: 50%;
+    }
+    .cg {
+        width: 90%;
+    }
+    .undersea_blur {
+        width: 90%;
+    }
+    .ui {
+        width: 90%;
+    }
+    .logo {
+        width: 60%;
+    }
+    
+ 
+} 
