@@ -1,17 +1,33 @@
 body {
-    background-image: url("images/background.png");
-    background-size: 100%;
+       
+}
+.wf-notosansjapanese { 
+    font-family: "Noto Sans JP"; 
 }
 
 h1 {
     text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+/* mvを1920×1080に調節する */
+.img_mv {
+    text-align: center;
+    background-color: white;
+}
+
+/* キャッチコピーを1920×1080に調節する */
+.catch_copy {
+    padding: 30% 0%;
+    color: #243583;
 }
 
 /* 画像たち */
 .mv {
     width: 80%;
 }
-.ui {
+.main_blur {
     width: 90%;
 }
 .character {
@@ -19,4 +35,11 @@ h1 {
 }
 .img {
     text-align: center;
+}
+
+/* 背景画像適応範囲 */
+.background {
+    background-image: url("images/background.png");
+    background-size: 100%;
+    color: white;
 }
