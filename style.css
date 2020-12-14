@@ -18,6 +18,7 @@ p {
 .img_mv {
     text-align: center;
     background-color: white;
+    padding-bottom: 20px;
 }
 
 /* キャッチコピーを1920×1080に調節する */
@@ -84,7 +85,7 @@ p {
 
 /* 全体調整 */
 .explanation {
-    padding: 10% 0px 10% 20%;
+    padding: 10% 0px 3% 20%;
     line-height: 3em;
 }
 /* display:flexにする */
@@ -106,16 +107,18 @@ p {
     text-align: center;
 }
 .mv {
-    width: 80%;
+    width: 100%;
 }
 .main_blur {
     width: 100%;
 }
 .character {
-    width: 580px;
+    width: 50%;
+    height: 50%;
 }
 .sifolu {
-    width: 280px;
+    width: 30%;
+    height: 30%;
 }
 .cg {
     width: 80%;
@@ -128,6 +131,7 @@ p {
 }
 .logo {
     width: 30%;
+    padding-bottom: 3%;
 }
 
 /* 背景画像適応範囲 */
@@ -216,7 +220,7 @@ p {
         width: 90%;
     }
     .logo {
-        width: 60%;
+        width: 10%;
     }
     
  
