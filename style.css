@@ -18,6 +18,7 @@ p {
 .img_mv {
     text-align: center;
     background-color: white;
+    line-height: 0; 
 }
 
 /* キャッチコピーを1920×1080に調節する */
