@@ -18,7 +18,6 @@ p {
 .img_mv {
     text-align: center;
     background-color: white;
-    padding-bottom: 20px;
 }
 
 /* キャッチコピーを1920×1080に調節する */
@@ -136,7 +135,7 @@ p {
 
 /* 背景画像適応範囲 */
 .background {
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.png");
     background-size: 100%;
     color: white;
 }
