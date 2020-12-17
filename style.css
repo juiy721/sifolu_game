@@ -109,21 +109,21 @@ p {
 .mv {
     width: 100%;
 }
-.main_blur {
+.main {
     width: 100%;
 }
 .character {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
 }
 .sifolu {
     width: 30%;
     height: 30%;
 }
-.cg {
+.sifolu_list {
     width: 80%;
 }
-.undersea_blur {
+.transifolu {
     width: 80%;
 }
 .ui {
